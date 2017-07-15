@@ -1,0 +1,63 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+.keys {
+  display: flex;
+  flex-wrap: wrap;
+}
+.row1 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.row2 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.row3 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.row4 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+.row5 {
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+p {
+  display: flex;
+  width: 35.5%;
+  margin: 0px;
+  background-color: #61b34f;
+}
+
+button {
+  width: 110px;
+  height: 149px;
+  background-color: #61b34f;
+  font-size: 22px;
+  color: #fdfffe;
+}
+
+#pluskey {
+  background-color: #82c276;
+}
+
+#minuskey {
+  background-color: #82c276;
+}
+
+#xkey {
+  background-color: #82c276;
+}
+
+#slashkey {
+  background-color: #82c276;
+}
