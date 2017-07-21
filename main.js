@@ -13,6 +13,43 @@ console.log(equals)
 numba.addEventListener('click')
 opto.addEventListener('click')
 
+/* clearButtons.forEach((button, i) => {
+  button.addEventListener('click', ()=>{
+  output.textContent=''
+  })
+  })
+
+  function addValuetoOutput(event){
+    const number = event.target.dataset.value
+    output.textContent +=number
+}
+
+opsButton.forEach((button, i) =>
+  button.addEventListener(click, addValuetoOutput) => {
+)}
+numberButtons.forEach((button, i)=> {
+    button.addEventListener('click,' (event) =>{
+    const number = event.target.data.value
+    })
+})
+*/
+for (let i = 0; i < numba.length; i++) {
+	var x = numba[i]
+	//const number = event.target.data.value
+	screen.textContent += number
+}
+
+/*
+Mark's code
+let numberButtons=document.querySelectorAll(".number-butter")numba for me
+Mark is using a foreach loop
+Mark uses data-value in HTML to set the button "value"
+numberButtons.forEach((button, i)=> {
+    button.addEventListener('click,' (event) =>{
+    const number = event.target.data.value
+    })
+})
+
 /*
 const numberify = document.querySelector(.numberify)
 numberify.addEventListener('click',()=>)
